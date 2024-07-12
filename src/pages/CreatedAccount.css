@@ -1,0 +1,57 @@
+/* src/pages/CreatedAccount.css */
+
+.created-account {
+    text-align: center;
+  }
+  
+  .created-account main {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .created-message {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .created-message p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .created-message button {
+    padding: 10px 20px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .created-message button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .created-message button:hover {
+    background-color: #23a6d5;
+  }
+  
+  .created-message button:focus {
+    outline: none;
+  }
+  
+  .created-message button:active {
+    transform: translateY(1px);
+  }
+  
+  .created-message button:hover a {
+    color: white;
+  }
+  
+  .created-message button:active a {
+    color: white;
+  }
+  
