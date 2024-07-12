@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background-image: url('/public/images/001.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+header h1 {
+  font-size: 2em;
+  color: #1f4e79;
+  padding: 20px;
+}
