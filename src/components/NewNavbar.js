@@ -8,7 +8,6 @@ function NewNavbar() {
     <nav className="new-navbar">
       <ul>
         <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-        <li><NavLink to="/back" activeClassName="active">Back</NavLink></li>
         <li><NavLink to="/logout" activeClassName="active">Log Out</NavLink></li>
       </ul>
     </nav>

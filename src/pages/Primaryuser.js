@@ -3,6 +3,8 @@ import React from 'react';
 import './Primaryuser.css';
 import Footer from '../components/Footer';
 import NewNavbar from '../components/NewNavbar'; // Import NewNavbar component
+import { Link } from 'react-router-dom';
+
 
 function Primaryuser() {
   return (
@@ -13,13 +15,13 @@ function Primaryuser() {
       <main>
         <div className="user-actions">
           <div>
-            <button>Create Advertisement</button>
+          <Link to="/spectrumsharingform"><button>Create Advertisement</button></Link>
           </div>
           <div>
-            <button>Advertisement Management</button>
+            <Link to="/spectrum-table"><button>Advertisement Management</button></Link>
           </div>
           <div>
-            <button>Bid Management</button>
+          <Link to="/bidmanagement"><button>Bid Management</button></Link>
           </div>
           <div>
             <button>Notifications</button>
