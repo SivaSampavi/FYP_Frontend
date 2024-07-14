@@ -19,6 +19,8 @@ import PlaceBid from './pages/Placebid';
 import MyBids from './pages/Mybids';
 import RevealBid from './pages/Revealbid';
 import SUBidManagement from './pages/SUBidmanagement';
+import Advertisedadd from './pages/AdvertisedAdds';
+
 
 
 function App() {
@@ -44,6 +46,7 @@ function App() {
           <Route path="/mybids" element={<MyBids/>} />
           <Route path="/revealbid" element={<RevealBid/>} />
           <Route path="/subidmanagement" element={<SUBidManagement />} />
+          <Route path="/advertisedadd" element={<Advertisedadd />} />
           <Route path="/secondaryuser" element={<Secondaryuser />} /> {/* Add route for Secondaryuser page */}
         </Routes>
         <Footer />

@@ -6,28 +6,25 @@ import NewNavbar from '../components/NewNavbar'; // Import NewNavbar component
 import { Link } from 'react-router-dom';
 
 
-function Primaryuser() {
+function Advertisedadd() {
   return (
     <div className="primaryuser-page">
       <header>
         <NewNavbar /> {/* Include NewNavbar component */}
       </header>
+      <header>
+        <h2>Advertised Advertisements</h2>
+      </header>
       <main>
         <div className="user-actions">
           <div>
-          <Link to="/spectrumsharingform"><button>Create Advertisement</button></Link>
+          <Link to="/bidmanagement"><button>1</button></Link>
           </div>
           <div>
-            <Link to="/spectrum-table"><button>Advertisement Management</button></Link>
+            <Link to="/bidmanagement"><button>2</button></Link>
           </div>
           <div>
-          <Link to="/advertisedadd"><button>Bid Management</button></Link>
-          </div>
-          <div>
-            <button>Notifications</button>
-          </div>
-          <div>
-            <button>Financial Management</button>
+          <Link to="/bidmanagement"><button>3</button></Link>
           </div>
         </div>
       </main>
@@ -35,4 +32,4 @@ function Primaryuser() {
   );
 }
 
-export default Primaryuser;
+export default Advertisedadd;
